@@ -120,7 +120,7 @@ body{
   text-align: center;
   color: #666666;
   background: #ccc;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   border-top: #4aaaa5 10px solid;
 }
@@ -147,4 +147,39 @@ img{
   margin: 4px 10px 0px 0px; 
   width: 200px;
   height: 200px;
+}
+
+.comment {
+  padding: 20px;
+  background: #4aaaa5;
+  margin-bottom: 20px;
+  height: 31px;
+  width: 89%;
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  line-height: 57%;
+  color: white;
+}
+
+
+.final-touch{
+  float: left;
+  position: relative;
+  width: 50%;
+}
+
+
+.final1-touch{
+  float: right;
+  position: relative;
+  width: 50%;
+
+}
+.pic-container{
+  position: relative;
+  height:760px;
+}
+.pic-container-div{
+  width :60%;
 }
